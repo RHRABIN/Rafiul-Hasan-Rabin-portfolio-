@@ -1,0 +1,50 @@
+[
+    {
+        "_id": "5",
+        "img": "https://i.ibb.co/4MbXnfM/css-removebg-preview.png",
+        "name": "Web Developer",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere exercitationem excepturi reiciendis magnam eius, facilis doloremque praesentium eum eaque nesciunt fugit alias voluptatem libero a, culpa dolorem debitis incidunt natus dolor sit pariatur quia vel."
+    },
+    {
+        "_id": "6",
+        "img": "https://i.ibb.co/KDj6Fvf/bootstrap-removebg-preview.png",
+        "name": "Full Stack Developer",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere exercitationem excepturi reiciendis magnam eius, facilis doloremque praesentium eum eaque nesciunt fugit alias voluptatem libero a, culpa dolorem debitis incidunt natus dolor sit pariatur quia vel."
+    },
+    {
+        "_id": "7",
+        "img": "https://i.ibb.co/C0H9Lp1/html-removebg-preview.png",
+        "name": "Full Stack Developer",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere exercitationem excepturi reiciendis magnam eius, facilis doloremque praesentium eum eaque nesciunt fugit alias voluptatem libero a, culpa dolorem debitis incidunt natus dolor sit pariatur quia vel."
+    },
+    {
+        "_id": "3",
+        "img": "https://i.ibb.co/ZmHkWzR/js-removebg-preview.png",
+        "name": "Full Stack Developer",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere exercitationem excepturi reiciendis magnam eius, facilis doloremque praesentium eum eaque nesciunt fugit alias voluptatem libero a, culpa dolorem debitis incidunt natus dolor sit pariatur quia vel."
+    },
+    {
+        "_id": "1",
+        "img": "https://i.ibb.co/6rd5gbS/react-removebg-preview.png",
+        "name": "Front End Developer",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere exercitationem excepturi reiciendis magnam eius, facilis doloremque praesentium eum eaque nesciunt fugit alias voluptatem libero a, culpa dolorem debitis incidunt natus dolor sit pariatur quia vel."
+    },
+    {
+        "_id": "2",
+        "img": "https://i.ibb.co/18CS1wv/firebase-removebg-preview.png",
+        "name": "Web Developer",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere exercitationem excepturi reiciendis magnam eius, facilis doloremque praesentium eum eaque nesciunt fugit alias voluptatem libero a, culpa dolorem debitis incidunt natus dolor sit pariatur quia vel."
+    },
+    {
+        "_id": "4",
+        "img": "https://i.ibb.co/YWCN4yk/node-removebg-preview.png",
+        "name": "Front End Developer",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere exercitationem excepturi reiciendis magnam eius, facilis doloremque praesentium eum eaque nesciunt fugit alias voluptatem libero a, culpa dolorem debitis incidunt natus dolor sit pariatur quia vel."
+    },
+    {
+        "_id": "9",
+        "img": "https://i.ibb.co/CwYYnN5/mongo-DB-removebg-preview.png",
+        "name": "Front End Developer",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere exercitationem excepturi reiciendis magnam eius, facilis doloremque praesentium eum eaque nesciunt fugit alias voluptatem libero a, culpa dolorem debitis incidunt natus dolor sit pariatur quia vel."
+    }
+]

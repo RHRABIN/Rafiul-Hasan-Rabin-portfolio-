@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-
+import AboutMe from './Components/AboutMe';
+import Contac from './Components/Contac';
+import Header from './Components/Header';
+import Heading from './Components/Heading';
+import Service from './Components/Service';
+import Websites from './Components/Websites';
+<link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className='  '>
+      <Header></Header>
+      <Heading></Heading>
+      <AboutMe></AboutMe>
+      <Service></Service>
+      <Websites></Websites>
+      <Contac></Contac>
+
     </div>
   );
 }

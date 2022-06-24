@@ -1,0 +1,33 @@
+.background {
+    background-image: linear-gradient(54deg, rgba(74, 76, 179, .95) 34%, hsla(0, 34%, 71%, .95)), url('https://i.ibb.co/pfGnq7w/footerbg.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+    background-blend-mode: border-box;
+}
+
+.contact_form input,
+textarea {
+    width: 100%;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Roboto Mono, monospace;
+}
+
+.contact-list {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Roboto Mono, monospace;
+    overflow: hidden;
+}
+
+.contacts__list {
+    display: inline-block;
+}

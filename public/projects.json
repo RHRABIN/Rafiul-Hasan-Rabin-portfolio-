@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Electronic Item",
+        "service": [
+            "This is a full stack website, make for electronics items.",
+            "User can order when login",
+            "Two log in way, admin and regular user.[admin: hasan@gmail.com, pass: 121212]",
+            "User will payment or cancel orders, update profile, add review"
+        ],
+        "live": "https://electroma-2c0a7.web.app/",
+        "img": "https://i.ibb.co/WF7YfY8/screenshot-electroma-2c0a7-web-app-2022-06-10-12-09-19.png",
+        "client": "https://github.com/RHRABIN/ElectromaBd-Client-Site",
+        "index": "First Website",
+        "technology": [
+            "REACT JS",
+            "NodeJs",
+            " MongoDb",
+            "Tailwind Css",
+            "DaisyUi",
+            "Firebase"
+        ],
+        "server": "https://github.com/RHRABIN/Electroma-server-side"
+    },
+    {
+        "name": "Smart Furniture",
+        "service": [
+            "A full stack website, make for House Furniture.",
+            "Log in system enabled without login user redirect login page",
+            "User can manage all order, make order"
+        ],
+        "technology": [
+            "REACT JS",
+            "Bootstrap",
+            "Firebase",
+            "NodeJs",
+            " MongoDb"
+        ],
+        "img": "https://i.ibb.co/GVZKCS6/screenshot-smart-furniture2-web-app-2022-06-11-12-30-36.png",
+        "live": "https://smart-furniture2.web.app/",
+        "client": "https://github.com/RHRABIN/warehouse-management-client-side",
+        "index": "Second Website",
+        "server": "https://github.com/RHRABIN/warehouse-management-server"
+    },
+    {
+        "name": "Mobile Finder",
+        "one": "true",
+        "img": "https://i.ibb.co/xCbGDwd/screenshot-focused-hodgkin-29d14a-netlify-app-2022-06-11-12-33-01.png",
+        "service": [
+            "This is a website for moible finder",
+            "User serach for phone and see details"
+        ],
+        "technology": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "index": "Third Website",
+        "live": "https://focused-hodgkin-29d14a.netlify.app",
+        "client": "https://github.com/RHRABIN/Mobile-finder"
+    }
+]
