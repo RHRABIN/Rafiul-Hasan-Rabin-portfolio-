@@ -15,8 +15,8 @@
             "REACT JS",
             "NodeJs",
             " MongoDb",
-            "Tailwind Css",
             "DaisyUi",
+            "Tailwind Css",
             "Firebase"
         ],
         "server": "https://github.com/RHRABIN/Electroma-server-side"
@@ -52,7 +52,8 @@
         "technology": [
             "HTML",
             "CSS",
-            "JavaScript"
+            "JavaScript",
+            "Bootstrap"
         ],
         "index": "Third Website",
         "live": "https://focused-hodgkin-29d14a.netlify.app",

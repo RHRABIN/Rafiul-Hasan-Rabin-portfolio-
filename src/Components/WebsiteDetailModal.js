@@ -6,10 +6,10 @@ const WebsiteDetailModal = ({ web, setModalData }) => {
     const { name, client, server, live, service, technology } = web;
     return (
         <div >
-            <input type="checkbox" id="detail-modal" class="modal-toggle" />
-            <div class="modal modal-middle sm:modal-middle">
-                <div class="modal-box">
-                    <h3 class="font-bold text-xl text-center text-orange-400 border-b">{name}</h3>
+            <input type="checkbox" id="detail-modal" className="modal-toggle" />
+            <div className="modal modal-middle sm:modal-middle">
+                <div className="modal-box">
+                    <h3 className="font-bold text-xl text-center text-orange-400 border-b">{name}</h3>
 
 
                     <div className='text-center mt-4'>
@@ -27,8 +27,8 @@ const WebsiteDetailModal = ({ web, setModalData }) => {
                             }
                         </div>
                     </div>
-                    <div class="modal-action">
-                        <label for="detail-modal" class="btn">Close</label>
+                    <div className="modal-action">
+                        <label for="detail-modal" className="btn">Close</label>
                     </div>
                 </div>
             </div>

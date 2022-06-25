@@ -1,23 +1,25 @@
 import React from 'react';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { BsFacebook, BsGithub } from 'react-icons/bs';
+import ScrollToTop from "react-scroll-to-top";
 
 const Footer = () => {
     return (
-        <footer class="footer flex justify-center items-center p-4  text-neutral-content px-10 mt-20">
+        <footer className="footer flex justify-center items-center flex-col gap-2  text-neutral-content px-2 lg:px-10 mt-10">
             <div>
+                <ScrollToTop smooth color="#6f00ff" />
 
-                <p className='text-xl'>Copyright © <span>{new Date().getFullYear()}</span> - All right reserved</p>
+                <p className='sm:text-sm lg:text-xl'>Copyright © <span>{new Date().getFullYear()}</span> - All right reserved</p>
             </div>
-            <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end ml-10 lg:hidden ">
+            <div className="grid-flow-col gap-1 md:place-self-center md:justify-self-end  lg:hidden ">
                 <a target="_blank" href="https://github.com/RHRABIN">
-                    <BsGithub style={{ fontSize: '2rem' }} />
+                    <BsGithub />
                 </a>
                 <a target="_blank" href="https://facebook.com/rh.rabin.735/">
-                    <BsFacebook style={{ fontSize: '2rem' }} />
+                    <BsFacebook />
                 </a>
                 <a target="_blank" href="https://www.linkedin.com/in/rh-rabin-8b3837223/">
-                    <AiFillLinkedin style={{ fontSize: '2rem', }} />
+                    <AiFillLinkedin />
                 </a>
             </div>
         </footer>
