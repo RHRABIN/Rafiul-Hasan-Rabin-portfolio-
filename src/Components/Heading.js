@@ -9,21 +9,24 @@ import Header from './Header';
 
 const Heading = () => {
     return (
-        <div>
+        <div className='relative'>
 
 
-            <div className="hero  lg:min-h-screen bg-base-200" style={{ backgroundImage: `url(https://i.ibb.co/tZTbJdn/Dark-Web-1-png.jpg)` }}>
+            <div className="hero  min-h-[calc(100vh-200px)] bg-base-200" style={{ backgroundImage: `url(https://i.ibb.co/tZTbJdn/Dark-Web-1-png.jpg)` }}>
 
                 <div className='hero-overlay bg-opacity-60 '>
-
                 </div>
-                <ScrollContainer>
-                    <ScrollPage page={0}>
-                        <Animator animation={batch(Fade(), MoveOut(0, 400))}>
-                            <div className="hero-content flex-col lg:flex-row-reverse mt-48">
+                <div>
+                    <div className='absolute top-0  lg:left-[40%]  md:left-[40%] sm:left-0'>
+                        <Header></Header>
+                    </div>
+
+                    <div>
+                        <div>
+                            <div className="hero-content flex-col lg:flex-row-reverse ">
 
                                 <div className='text-center'>
-                                    <h1 className="text-5xl font-bold">
+                                    <h1 className="text-5xl font-bold text-white">
                                         Rafiul Hasan Rabin</h1>
                                     {/* <p className="py-6 text-xl">Full Stack Web Developer</p> */}
                                     <div className='my-6 text-xl font-serif text-yellow-400'>
@@ -36,7 +39,7 @@ const Heading = () => {
 
                                     </div>
 
-                                    <div className='flex justify-center gap-4 mb-6'>
+                                    <div className='flex justify-center gap-4 mb-6 text-cyan-100'>
 
                                         <a target="_blank" href="https://github.com/RHRABIN"> <BsGithub style={{ fontSize: '2rem', color: '' }} /></a>
                                         <a target="_blank" href="https://facebook.com/rh.rabin.735/"><BsFacebook style={{ fontSize: '2rem', color: '' }} /></a>
@@ -45,9 +48,9 @@ const Heading = () => {
                                     <a target='blank' href='https://drive.google.com/file/d/1ASt308_0fCuz5AI17W_2_LtRbEpvIVA5/view?usp=sharing' className="btn btn-primary text-xl px-6 py-2"> <span className='flex justiy-center items-center gap-2'><FaRegAddressCard style={{ fontSize: '1.3em' }} /> My Resume</span></a>
                                 </div>
                             </div>
-                        </Animator>
-                    </ScrollPage>
-                </ScrollContainer>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

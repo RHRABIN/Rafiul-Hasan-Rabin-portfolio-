@@ -6,9 +6,9 @@ const AboutMe = () => {
     return (
 
 
-        <div className=" grid lg:grid-cols-2  lg:px-48 my-10">
+        <div id='about' className=" grid lg:grid-cols-2  lg:px-48 my-10">
 
-            <div className='px-2 lg:ml-10 mt-10'>
+            <div className='px-2 lg:ml-10 '>
                 <div
                     data-aos="zoom-in-up"
                     data-aos-duration="1000"

@@ -6,12 +6,7 @@ import ScrollToTop from "react-scroll-to-top";
 const Footer = () => {
     return (
         <footer className="footer flex justify-center items-center flex-col gap-2  text-neutral-content px-2 lg:px-10 mt-10">
-            <div>
-                <ScrollToTop smooth color="#6f00ff" />
-
-                <p className='sm:text-sm lg:text-xl'>Copyright © <span>{new Date().getFullYear()}</span> - All right reserved</p>
-            </div>
-            <div className="grid-flow-col gap-1 md:place-self-center md:justify-self-end  lg:hidden ">
+            <div className="grid-flow-col gap-2 md:place-self-center md:justify-self-end  lg:hidden ">
                 <a target="_blank" href="https://github.com/RHRABIN">
                     <BsGithub />
                 </a>
@@ -22,6 +17,12 @@ const Footer = () => {
                     <AiFillLinkedin />
                 </a>
             </div>
+            <div>
+                <ScrollToTop smooth color="#6f00ff" />
+
+                <p className='sm:text-sm lg:text-xl'>Copyright © <span>{new Date().getFullYear()}</span> - All right reserved</p>
+            </div>
+
         </footer>
     );
 };

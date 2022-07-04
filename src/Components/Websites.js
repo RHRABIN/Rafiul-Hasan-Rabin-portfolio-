@@ -13,8 +13,10 @@ const Websites = () => {
     }, [])
     return (
         <div id='project' className='mb-10'>
-            <h1 className="text-4xl py-10 text-center">Recent Projects</h1>
-            <div className='grid grid-cols-1 gap-10 justify-items-center'>
+            <h1 className='text-center my-16'>
+                <span className="text-4xl text-secondary   border-x-4 px-4   border-pink-300" >Recent Projects</span>
+            </h1>
+            <div className='grid grid-cols-1 gap-1 px-2 md:px-20 lg:px-60'>
                 {
                     websites.map((web, index) => <SingleWebsites key={index} web={web}
                         modalData={modalData}

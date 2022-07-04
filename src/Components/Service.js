@@ -1,39 +1,64 @@
-import React, { useState, useEffect } from 'react';
-import SingleService from './SingleService';
-import { GrReactjs } from 'react-icons/gr';
-import { TbBrandJavascript } from 'react-icons/tb';
-import { ImHtmlFive } from 'react-icons/im';
-import { IoLogoCss3 } from 'react-icons/io';
-import { DiNodejs } from 'react-icons/di';
-import { SiMongodb } from 'react-icons/si';
-import { SiTailwindcss } from 'react-icons/si';
-import { SiFirebase } from 'react-icons/si';
+import React from 'react';
+import { BiCodeAlt } from 'react-icons/bi';
+import { FaReact } from 'react-icons/fa';
+import { IoServer } from 'react-icons/io5';
+
 const Service = () => {
-    const [services, setServices] = useState([]);
-    useEffect(() => {
-        fetch('services.json')
-            .then(res => res.json())
-            .then(data => {
-                setServices(data)
-            })
-    }, []);
+
 
     return (
         <div>
-            <h1 className='text-4xl text-center my-10 text-orange-400'>My Awesome Services</h1>
-            <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 justify-items-center sm:px-2 lg:px-96'>
-                {/* {
-                    services?.map(service => <SingleService key={service._id} service={service}></SingleService>)
-                } */}
-                <GrReactjs style={{ fontSize: '3.5rem', color: 'cyan' }} />
-                <TbBrandJavascript style={{ fontSize: '3.5rem', color: 'yellow' }} />
-                <ImHtmlFive style={{ fontSize: '3.5rem', color: 'tomato' }} />
-                <DiNodejs style={{ fontSize: '5.5rem', color: 'green' }} />
-                <IoLogoCss3 style={{ fontSize: '3.5rem', color: 'blue' }} />
-                <SiMongodb style={{ fontSize: '3.5rem', color: 'green' }} />
-                <SiTailwindcss style={{ fontSize: '3.5rem', color: 'cyan' }} />
-                <SiFirebase style={{ fontSize: '3.5rem', color: 'yellow' }} />
+            <h1 className='text-center my-10'>
+                <span className='text-4xl text-center px-4  text-secondary border-x-4 border-pink-300 '>My  Services</span>
+            </h1>
+            <div className='px-2 md:px-20 lg:px-60 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'
+            >
+
+                <section class="card lg:w-96 bg-base-100 shadow-2xl hover:bg-cyan-100 hover:text-black"
+                    data-aos="fade-left"
+                    data-aos-duration="1500"
+
+                >
+                    <figure class="px-10 pt-10"
+                    >
+                        <FaReact style={{ fontSize: '2.5em', color: 'cyan' }} />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="text-2xl text-primary">React Developer</h2>
+                        <p>I am a React Developer. I have also created many single page application using React js. I can be your React Developer.</p>
+
+                    </div>
+                </section>
+                <section class="card lg:w-96 bg-base-100 shadow-2xl hover:bg-cyan-100 hover:text-black"
+                    data-aos="fade-up"
+                    data-aos-duration="1500">
+                    <figure class="px-10 pt-10"
+
+                    >
+                        <BiCodeAlt style={{ fontSize: '2.5em', color: '#FDE68A' }} />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="text-2xl text-primary">Full Stack Web Developer</h2>
+                        <p>I am a Full Stack Web Developer. I have also complete 5+ full stack projects using React js, JavaScript, Node js and Mongo DB. I can be your Full Stack Developer</p>
+                        .
+                    </div>
+                </section>
+                <section class="card lg:w-96 bg-base-100 shadow-2xl hover:bg-cyan-100 hover:text-black"
+                    data-aos="fade-right"
+                    data-aos-duration="1000"
+                >
+                    <figure class="px-10 pt-10 ">
+                        <IoServer style={{ fontSize: '2.5em', color: 'green' }} />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="text-2xl text-primary">Backend Developer</h2>
+                        <p>I am a Node JS Developer. I have also created many Project server side Api Endpoint using Node js and Mongo DB. I can be your BackEnd Developer..</p>
+
+                    </div>
+                </section>
+
             </div>
+
         </div>
     );
 };
