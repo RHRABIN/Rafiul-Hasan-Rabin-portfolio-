@@ -1,0 +1,36 @@
+.title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 160px;
+    height: 3px;
+    background-color: rgb(241, 232, 232);
+    transform: translateX(-50%);
+}
+
+.title::after {
+    content: "what i provide";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: crimson;
+    padding: 5px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+.card-main {
+    transition: all 0.3s ease;
+    width: 50%;
+}
+
+.card-transition {
+    transition: all 0.3s ease;
+}
+
+.card-main:hover {
+    transform: scale(1.05);
+}
